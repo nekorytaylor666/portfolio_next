@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import Anch from './Anch';
 import Contacts from './Contacts';
+import devices from '../tools/mediaQueries';
 
 const Title = styled.h1`
   font-size: 9rem;
@@ -26,6 +27,16 @@ const SubTitleLayout = styled.div`
 const ContactsLayout = styled.div`
   justify-self: start;
   align-self: end;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+`;
+
+const CustomAnchLayout = styled.div`
+  justify-self: center;
+  @media ${devices.mobileL} {
+    justify-self: end;
+  }
 `;
 
 const SectionLayout = styled.section`
@@ -46,12 +57,20 @@ function Main() {
             <SubTitle className="subtitle_text">Creator</SubTitle>
           </div>
         </SubTitleLayout>
-        <Anch href="/" className="contact" fontSize="1.5rem" color="white" underlineColor="#ef3340">
-          Contact me
-        </Anch>
       </div>
       <ContactsLayout>
         <Contacts color="white" size="4x" width="400px" mobileWidth="200px" />
+        <CustomAnchLayout>
+          <Anch
+            href="/"
+            className="contact"
+            fontSize="2.5rem"
+            color="white"
+            underlineColor="#ef3340"
+          >
+            Contact me
+          </Anch>
+        </CustomAnchLayout>
       </ContactsLayout>
     </SectionLayout>
   );

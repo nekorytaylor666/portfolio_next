@@ -49,7 +49,7 @@ const MenuTab = styled.a`
   &:hover {
     color: white;
   }
-  @media ${devices.mobileS} {
+  @media ${devices.mobileL} {
     font-size: 6rem;
   }
 `;
@@ -114,7 +114,7 @@ const Header = () => {
     setDisplayNav(!displayNav);
     const navigation = navRef.current;
     const menuList = menuRef.current;
-    const delay = 0.3;
+    const delay = 0.5;
     const tl = new TimelineMax({});
     if (!displayNav) {
       tl.to(navigation, delay, {

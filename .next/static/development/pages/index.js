@@ -272,7 +272,7 @@ var NavigationLayout = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"]
 var MenuTab = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].a.withConfig({
   displayName: "Header__MenuTab",
   componentId: "by5f3k-3"
-})(["text-decoration:none;font-weight:bold;font-size:8rem;color:black;transition:0.4s;&:hover{color:white;}@media ", "{font-size:6rem;}"], _tools_mediaQueries__WEBPACK_IMPORTED_MODULE_7__["default"].mobileS);
+})(["text-decoration:none;font-weight:bold;font-size:8rem;color:black;transition:0.4s;&:hover{color:white;}@media ", "{font-size:6rem;}"], _tools_mediaQueries__WEBPACK_IMPORTED_MODULE_7__["default"].mobileL);
 var LogoLayout = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div.withConfig({
   displayName: "Header__LogoLayout",
   componentId: "by5f3k-4"
@@ -315,7 +315,7 @@ var Header = function Header() {
     setDisplayNav(!displayNav);
     var navigation = navRef.current;
     var menuList = menuRef.current;
-    var delay = 0.3;
+    var delay = 0.5;
     var tl = new gsap__WEBPACK_IMPORTED_MODULE_3__["TimelineMax"]({});
 
     if (!displayNav) {
@@ -506,7 +506,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 /* harmony import */ var _Anch__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Anch */ "./components/Anch.jsx");
 /* harmony import */ var _Contacts__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Contacts */ "./components/Contacts.jsx");
+/* harmony import */ var _tools_mediaQueries__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../tools/mediaQueries */ "./tools/mediaQueries.js");
 var _jsxFileName = "C:\\Users\\\u0422\u043E\u0445\u0442\u0430\u0440\\Desktop\\site_next\\components\\Main.jsx";
+
 
 
 
@@ -532,37 +534,41 @@ var SubTitleLayout = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].d
 var ContactsLayout = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
   displayName: "Main__ContactsLayout",
   componentId: "sc-1qli85e-4"
-})(["justify-self:start;align-self:end;"]);
+})(["justify-self:start;align-self:end;display:grid;grid-template-columns:1fr 1fr;width:100%;"]);
+var CustomAnchLayout = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
+  displayName: "Main__CustomAnchLayout",
+  componentId: "sc-1qli85e-5"
+})(["justify-self:center;@media ", "{justify-self:end;}"], _tools_mediaQueries__WEBPACK_IMPORTED_MODULE_4__["default"].mobileL);
 var SectionLayout = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].section.withConfig({
   displayName: "Main__SectionLayout",
-  componentId: "sc-1qli85e-5"
+  componentId: "sc-1qli85e-6"
 })(["display:grid;grid-template-rows:1fr 1fr;height:80vh;"]);
 
 function Main() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SectionLayout, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39
+      lineNumber: 50
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "title_container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40
+      lineNumber: 51
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Title, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41
+      lineNumber: 52
     },
     __self: this
   }, "Full stack"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SubTitleLayout, {
     className: "subtitle_container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42
+      lineNumber: 53
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Img, {
@@ -571,45 +577,34 @@ function Main() {
     height: "6rem",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43
+      lineNumber: 54
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "subtitle_text_container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44
+      lineNumber: 55
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SubTitle, {
     className: "subtitle_text",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45
+      lineNumber: 56
     },
     __self: this
   }, "Web developer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SubTitle, {
     className: "subtitle_text",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46
+      lineNumber: 57
     },
     __self: this
-  }, "Creator"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Anch__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    href: "/",
-    className: "contact",
-    fontSize: "1.5rem",
-    color: "white",
-    underlineColor: "#ef3340",
+  }, "Creator")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ContactsLayout, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49
-    },
-    __self: this
-  }, "Contact me")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ContactsLayout, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 53
+      lineNumber: 61
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Contacts__WEBPACK_IMPORTED_MODULE_3__["default"], {
@@ -619,10 +614,27 @@ function Main() {
     mobileWidth: "200px",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54
+      lineNumber: 62
     },
     __self: this
-  })));
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(CustomAnchLayout, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 63
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Anch__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    href: "/",
+    className: "contact",
+    fontSize: "2.5rem",
+    color: "white",
+    underlineColor: "#ef3340",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 64
+    },
+    __self: this
+  }, "Contact me"))));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (Main);

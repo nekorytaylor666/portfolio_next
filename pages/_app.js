@@ -23,7 +23,7 @@ class MyApp extends App {
       <Container>
         <Head>
           <link
-            href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=swap"
+            href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=block"
             rel="stylesheet"
           />
           <script src="https://kit.fontawesome.com/810c0a2f4e.js" />
