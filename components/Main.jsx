@@ -42,7 +42,7 @@ const CustomAnchLayout = styled.div`
 const SectionLayout = styled.section`
   display: grid;
   grid-template-rows: 1fr 1fr;
-  height: 80vh;
+  height: 70vh;
 `;
 
 function Main() {

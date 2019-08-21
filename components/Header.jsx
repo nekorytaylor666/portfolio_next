@@ -101,7 +101,7 @@ const ContactsLayout = styled.div`
 const SectionLayout = styled.div`
   display: grid;
   grid-template-rows: 1fr 1fr;
-  height: 100vh;
+  height: 90vh;
   padding: 6rem 3rem;
 `;
 

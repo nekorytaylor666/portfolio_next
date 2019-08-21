@@ -300,7 +300,7 @@ var ContactsLayout = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].d
 var SectionLayout = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div.withConfig({
   displayName: "Header__SectionLayout",
   componentId: "by5f3k-10"
-})(["display:grid;grid-template-rows:1fr 1fr;height:100vh;padding:6rem 3rem;"]);
+})(["display:grid;grid-template-rows:1fr 1fr;height:90vh;padding:6rem 3rem;"]);
 
 var Header = function Header() {
   var navRef = Object(react__WEBPACK_IMPORTED_MODULE_1__["useRef"])();
@@ -542,7 +542,7 @@ var CustomAnchLayout = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"]
 var SectionLayout = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].section.withConfig({
   displayName: "Main__SectionLayout",
   componentId: "sc-1qli85e-6"
-})(["display:grid;grid-template-rows:1fr 1fr;height:80vh;"]);
+})(["display:grid;grid-template-rows:1fr 1fr;height:70vh;"]);
 
 function Main() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SectionLayout, {
