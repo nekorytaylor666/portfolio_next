@@ -62,7 +62,7 @@ function Main() {
         <Contacts color="white" size="4x" width="400px" mobileWidth="200px" />
         <CustomAnchLayout>
           <Anch
-            href="/"
+            href="https://t.me/akmt_dev"
             className="contact"
             fontSize="2.5rem"
             color="white"

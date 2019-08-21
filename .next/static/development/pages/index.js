@@ -77,7 +77,7 @@ var Contacts = function Contacts(props) {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "/",
+    href: "https://www.instagram.com/akmt_dev/",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 29
@@ -100,7 +100,7 @@ var Contacts = function Contacts(props) {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "/",
+    href: "https://www.behance.net/akmt_dev/",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 34
@@ -123,7 +123,7 @@ var Contacts = function Contacts(props) {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "/",
+    href: "https://t.me/akmt_dev",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 39
@@ -146,7 +146,7 @@ var Contacts = function Contacts(props) {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "/",
+    href: "https://linkedin.com/in/\u0442\u043E\u0445\u0442\u0430\u0440-\u0430\u0445\u043C\u0435\u0442\u043E\u0432-51988b17b",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 44
@@ -624,7 +624,7 @@ function Main() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Anch__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    href: "/",
+    href: "https://t.me/akmt_dev",
     className: "contact",
     fontSize: "2.5rem",
     color: "white",

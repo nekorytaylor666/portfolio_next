@@ -26,22 +26,22 @@ const Contacts = props => {
   return (
     <ContactList width={width} mobileWidth={mobileWidth}>
       <li>
-        <a href="/">
+        <a href="https://www.instagram.com/akmt_dev/">
           <FontAwesomeIcon size={size} color={color} icon={faInstagram} className="icon" />
         </a>
       </li>
       <li>
-        <a href="/">
+        <a href="https://www.behance.net/akmt_dev/">
           <FontAwesomeIcon size={size} color={color} icon={faBehanceSquare} className="icon" />
         </a>
       </li>
       <li>
-        <a href="/">
+        <a href="https://t.me/akmt_dev">
           <FontAwesomeIcon size={size} color={color} icon={faTelegramPlane} className="icon" />
         </a>
       </li>
       <li>
-        <a href="/">
+        <a href="https://linkedin.com/in/тохтар-ахметов-51988b17b">
           <FontAwesomeIcon size={size} color={color} icon={faLinkedin} className="icon" />
         </a>
       </li>
