@@ -4,6 +4,22 @@
 import React from 'react';
 import App, { Container } from 'next/app';
 import Head from 'next/head';
+import { NextSeo } from 'next-seo';
+
+const DEFAULT_SEO = {
+  title: 'Portfolio Akhmetov Tokhtar',
+  description: `Portfolio of Akhmetov Tokhtar. Junior web developer from Astana,
+    Kazakhstan. React, Node, Next, C#, Python, Django`,
+  openGraph: {
+    type: 'website',
+    locale: 'en_IE',
+    url: 'https://akmt.me',
+    title: 'Portfolio Akhmetov Tokhtar',
+    description: `Portfolio of Akhmetov Tokhtar. Junior web developer from Astana,
+      Kazakhstan. React, Node, Next, C#, Python, Django`,
+    site_name: 'akmt.me',
+  },
+};
 
 class MyApp extends App {
   // static async getInitialProps({ Component, ctx }) {
@@ -25,9 +41,11 @@ class MyApp extends App {
           <link
             href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=block"
             rel="stylesheet"
+            async
           />
           <script src="https://kit.fontawesome.com/810c0a2f4e.js" />
         </Head>
+        <NextSeo config={DEFAULT_SEO} />
         <Component {...pageProps} />
         <style global jsx>{`
           body {
