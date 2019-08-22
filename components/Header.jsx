@@ -70,7 +70,8 @@ const TitleLayout = styled.div`
   align-items: center;
   justify-content: end;
   @media ${devices.mobileL} {
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 2fr auto;
+    justify-items: start;
   }
 `;
 
@@ -101,8 +102,8 @@ const ContactsLayout = styled.div`
 const SectionLayout = styled.div`
   display: grid;
   grid-template-rows: 1fr 1fr;
-  height: 90vh;
-  padding: 6rem 3rem;
+  height: 100%;
+  padding: 6rem 3rem 10rem 3rem;
 `;
 
 const Header = () => {

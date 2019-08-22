@@ -79,6 +79,11 @@ class MyApp extends App {
               font-size: 8px;
             }
           }
+          @media screen and (max-width: 400px) {
+            html {
+              font-size: 6px;
+            }
+          }
         `}</style>
       </Container>
     );

@@ -16,7 +16,7 @@ const SubTitle = styled.h2`
 
 const Img = styled.img`
   height: ${prop => prop.height};
-  margin: 10px;
+  margin-right: 10px;
 `;
 
 const SubTitleLayout = styled.div`
@@ -30,6 +30,7 @@ const ContactsLayout = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
   width: 100%;
+  margin-bottom: 10rem;
 `;
 
 const CustomAnchLayout = styled.div`
@@ -42,7 +43,7 @@ const CustomAnchLayout = styled.div`
 const SectionLayout = styled.section`
   display: grid;
   grid-template-rows: 1fr 1fr;
-  height: 70vh;
+  height: 100%;
 `;
 
 function Main() {
@@ -59,7 +60,7 @@ function Main() {
         </SubTitleLayout>
       </div>
       <ContactsLayout>
-        <Contacts color="white" size="4x" width="400px" mobileWidth="200px" />
+        <Contacts color="white" size="4x" width="400px" mobileWidth="150px" />
         <CustomAnchLayout>
           <Anch
             href="https://t.me/akmt_dev"

@@ -5,6 +5,7 @@ import Header from '../components/Header';
 import Main from '../components/Main';
 
 const Layout = styled.div`
+  height: 100vh;
   padding: 3rem;
 `;
 
