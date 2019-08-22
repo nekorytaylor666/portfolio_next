@@ -79,7 +79,7 @@ class MyApp extends App {
               font-size: 8px;
             }
           }
-          @media screen and (max-width: 400px) {
+          @media screen and (max-width: 320px) {
             html {
               font-size: 6px;
             }

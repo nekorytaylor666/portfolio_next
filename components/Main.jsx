@@ -60,7 +60,7 @@ function Main() {
         </SubTitleLayout>
       </div>
       <ContactsLayout>
-        <Contacts color="white" size="4x" width="400px" mobileWidth="150px" />
+        <Contacts color="white" size="4x" width="400px" mobileWidth="200px" />
         <CustomAnchLayout>
           <Anch
             href="https://t.me/akmt_dev"

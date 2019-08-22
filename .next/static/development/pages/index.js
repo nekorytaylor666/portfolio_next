@@ -611,7 +611,7 @@ function Main() {
     color: "white",
     size: "4x",
     width: "400px",
-    mobileWidth: "150px",
+    mobileWidth: "200px",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 63
