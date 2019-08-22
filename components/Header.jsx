@@ -103,7 +103,10 @@ const SectionLayout = styled.div`
   display: grid;
   grid-template-rows: 1fr 1fr;
   height: 100%;
-  padding: 6rem 3rem 10rem 3rem;
+  padding: 6rem 3rem 3rem 3rem;
+  @media ${devices.mobileL} {
+    padding: 6rem 3rem 12rem 3rem;
+  }
 `;
 
 const Header = () => {

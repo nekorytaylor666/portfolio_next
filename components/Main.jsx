@@ -30,7 +30,10 @@ const ContactsLayout = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
   width: 100%;
-  margin-bottom: 10rem;
+  margin-bottom: 3rem;
+  @media ${devices.mobileL} {
+    margin-bottom: 12rem;
+  }
 `;
 
 const CustomAnchLayout = styled.div`

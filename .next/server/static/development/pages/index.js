@@ -386,7 +386,7 @@ const ContactsLayout = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.
 const SectionLayout = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "Header__SectionLayout",
   componentId: "by5f3k-10"
-})(["display:grid;grid-template-rows:1fr 1fr;height:100%;padding:6rem 3rem 10rem 3rem;"]);
+})(["display:grid;grid-template-rows:1fr 1fr;height:100%;padding:6rem 3rem 3rem 3rem;@media ", "{padding:6rem 3rem 12rem 3rem;}"], _tools_mediaQueries__WEBPACK_IMPORTED_MODULE_6__["default"].mobileL);
 
 const Header = () => {
   const navRef = Object(react__WEBPACK_IMPORTED_MODULE_0__["useRef"])();
@@ -426,19 +426,19 @@ const Header = () => {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Navbar, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 146
+      lineNumber: 149
     },
     __self: undefined
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(TitleLayout, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 147
+      lineNumber: 150
     },
     __self: undefined
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(LogoLayout, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 148
+      lineNumber: 151
     },
     __self: undefined
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Logo, {
@@ -446,7 +446,7 @@ const Header = () => {
     alt: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 149
+      lineNumber: 152
     },
     __self: undefined
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Anch__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -455,64 +455,51 @@ const Header = () => {
     underlineColor: displayNav ? 'black' : '#ef3340',
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 150
+      lineNumber: 153
     },
     __self: undefined
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Title, {
     color: displayNav ? 'black' : 'white',
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 155
+      lineNumber: 158
     },
     __self: undefined
   }, "Akhmetov Toktar"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Btn, {
     onClick: showNavigation,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 158
+      lineNumber: 161
     },
     __self: undefined
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Ham__WEBPACK_IMPORTED_MODULE_3__["default"], {
     color: displayNav ? 'black' : 'white',
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 159
+      lineNumber: 162
     },
     __self: undefined
   }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(NavigationLayout, {
     ref: navRef,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 162
+      lineNumber: 165
     },
     __self: undefined
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SectionLayout, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 163
+      lineNumber: 166
     },
     __self: undefined
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(MenuLayout, {
     ref: menuRef,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 164
+      lineNumber: 167
     },
     __self: undefined
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 165
-    },
-    __self: undefined
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(MenuTab, {
-    href: "/",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 166
-    },
-    __self: undefined
-  }, "lorem ipsum")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 168
@@ -551,10 +538,23 @@ const Header = () => {
       lineNumber: 175
     },
     __self: undefined
-  }, "lorem ipsum"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ContactsLayout, {
+  }, "lorem ipsum")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 177
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(MenuTab, {
+    href: "/",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 178
+    },
+    __self: undefined
+  }, "lorem ipsum"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ContactsLayout, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 181
     },
     __self: undefined
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Contacts__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -564,7 +564,7 @@ const Header = () => {
     mobileWidth: "200px",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 179
+      lineNumber: 182
     },
     __self: undefined
   })))));
@@ -615,7 +615,7 @@ const SubTitleLayout = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.
 const ContactsLayout = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "Main__ContactsLayout",
   componentId: "sc-1qli85e-4"
-})(["justify-self:start;align-self:end;display:grid;grid-template-columns:1fr 1fr;width:100%;margin-bottom:10rem;"]);
+})(["justify-self:start;align-self:end;display:grid;grid-template-columns:1fr 1fr;width:100%;margin-bottom:3rem;@media ", "{margin-bottom:12rem;}"], _tools_mediaQueries__WEBPACK_IMPORTED_MODULE_4__["default"].mobileL);
 const CustomAnchLayout = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "Main__CustomAnchLayout",
   componentId: "sc-1qli85e-5"
@@ -629,27 +629,27 @@ function Main() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SectionLayout, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51
+      lineNumber: 54
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "title_container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52
+      lineNumber: 55
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Title, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53
+      lineNumber: 56
     },
     __self: this
   }, "Full stack"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SubTitleLayout, {
     className: "subtitle_container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54
+      lineNumber: 57
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Img, {
@@ -658,34 +658,34 @@ function Main() {
     height: "6rem",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55
+      lineNumber: 58
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "subtitle_text_container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56
+      lineNumber: 59
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SubTitle, {
     className: "subtitle_text",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57
+      lineNumber: 60
     },
     __self: this
   }, "Web developer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SubTitle, {
     className: "subtitle_text",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58
+      lineNumber: 61
     },
     __self: this
   }, "Creator")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ContactsLayout, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62
+      lineNumber: 65
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Contacts__WEBPACK_IMPORTED_MODULE_3__["default"], {
@@ -695,13 +695,13 @@ function Main() {
     mobileWidth: "200px",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63
+      lineNumber: 66
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(CustomAnchLayout, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 64
+      lineNumber: 67
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Anch__WEBPACK_IMPORTED_MODULE_2__["default"], {
@@ -712,7 +712,7 @@ function Main() {
     underlineColor: "#ef3340",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 65
+      lineNumber: 68
     },
     __self: this
   }, "Contact me"))));
