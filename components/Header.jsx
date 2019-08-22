@@ -1,6 +1,7 @@
 import React, { useEffect, useState, useRef } from 'react';
 import styled from 'styled-components';
 import { Power3, TimelineMax } from 'gsap';
+import Link from 'next/link';
 import Ham from './Ham';
 import Anch from './Anch';
 import Contacts from './Contacts';
@@ -41,6 +42,7 @@ const NavigationLayout = styled.div`
 `;
 
 const MenuTab = styled.a`
+  cursor: pointer;
   text-decoration: none;
   font-weight: bold;
   font-size: 8rem;
@@ -151,7 +153,7 @@ const Header = () => {
         <LogoLayout>
           <Logo src="/static/logo_ball.png" alt="" />
           <Anch
-            href="#"
+            href="/"
             color={displayNav ? 'black' : 'white'}
             underlineColor={displayNav ? 'black' : '#ef3340'}
           >
@@ -166,7 +168,9 @@ const Header = () => {
         <SectionLayout>
           <MenuLayout ref={menuRef}>
             <li>
-              <MenuTab href="/">lorem ipsum</MenuTab>
+              <Link href="/about" title="About me">
+                <MenuTab>About me</MenuTab>
+              </Link>
             </li>
             <li>
               <MenuTab href="/">lorem ipsum</MenuTab>

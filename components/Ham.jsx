@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Ham = styled.div`
+  cursor: pointer;
   display: block;
   width: 20px;
   div {

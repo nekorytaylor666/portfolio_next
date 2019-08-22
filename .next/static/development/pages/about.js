@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\index.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\about.js"],{
 
 /***/ "./components/Anch.jsx":
 /*!*****************************!*\
@@ -499,155 +499,6 @@ var Header = function Header() {
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Header);
-
-/***/ }),
-
-/***/ "./components/Main.jsx":
-/*!*****************************!*\
-  !*** ./components/Main.jsx ***!
-  \*****************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
-/* harmony import */ var _Anch__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Anch */ "./components/Anch.jsx");
-/* harmony import */ var _Contacts__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Contacts */ "./components/Contacts.jsx");
-/* harmony import */ var _tools_mediaQueries__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../tools/mediaQueries */ "./tools/mediaQueries.js");
-var _jsxFileName = "C:\\Users\\\u0422\u043E\u0445\u0442\u0430\u0440\\Desktop\\site_next\\components\\Main.jsx";
-
-
-
-
-
-var Title = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].h1.withConfig({
-  displayName: "Main__Title",
-  componentId: "sc-1qli85e-0"
-})(["font-size:9rem;font-weight:100;"]);
-var SubTitle = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].h2.withConfig({
-  displayName: "Main__SubTitle",
-  componentId: "sc-1qli85e-1"
-})(["font-size:3rem;font-weight:inherit;"]);
-var Img = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].img.withConfig({
-  displayName: "Main__Img",
-  componentId: "sc-1qli85e-2"
-})(["height:", ";margin-right:10px;"], function (prop) {
-  return prop.height;
-});
-var SubTitleLayout = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
-  displayName: "Main__SubTitleLayout",
-  componentId: "sc-1qli85e-3"
-})(["display:flex;align-items:center;"]);
-var ContactsLayout = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
-  displayName: "Main__ContactsLayout",
-  componentId: "sc-1qli85e-4"
-})(["justify-self:start;align-self:end;display:grid;grid-template-columns:1fr 1fr;width:100%;margin-bottom:3rem;@media ", "{margin-bottom:12rem;}"], _tools_mediaQueries__WEBPACK_IMPORTED_MODULE_4__["default"].mobileL);
-var CustomAnchLayout = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
-  displayName: "Main__CustomAnchLayout",
-  componentId: "sc-1qli85e-5"
-})(["justify-self:center;@media ", "{justify-self:end;}"], _tools_mediaQueries__WEBPACK_IMPORTED_MODULE_4__["default"].mobileL);
-var SectionLayout = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].section.withConfig({
-  displayName: "Main__SectionLayout",
-  componentId: "sc-1qli85e-6"
-})(["display:grid;grid-template-rows:1fr 1fr;height:100%;"]);
-
-function Main() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SectionLayout, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 54
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "title_container",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 55
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Title, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 56
-    },
-    __self: this
-  }, "Full stack"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SubTitleLayout, {
-    className: "subtitle_container",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 57
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Img, {
-    src: "/static/ampersand.png",
-    alt: "",
-    height: "6rem",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 58
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "subtitle_text_container",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 59
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SubTitle, {
-    className: "subtitle_text",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 60
-    },
-    __self: this
-  }, "Web developer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SubTitle, {
-    className: "subtitle_text",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 61
-    },
-    __self: this
-  }, "Creator")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ContactsLayout, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 65
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Contacts__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    color: "white",
-    size: "4x",
-    width: "400px",
-    mobileWidth: "200px",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 66
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(CustomAnchLayout, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 67
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Anch__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    href: "https://t.me/akmt_dev",
-    className: "contact",
-    fontSize: "2.5rem",
-    color: "white",
-    underlineColor: "#ef3340",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 68
-    },
-    __self: this
-  }, "Contact me"))));
-}
-
-/* harmony default export */ __webpack_exports__["default"] = (Main);
 
 /***/ }),
 
@@ -22348,21 +22199,21 @@ exports.formatWithValidation = formatWithValidation;
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5C%D0%A2%D0%BE%D1%85%D1%82%D0%B0%D1%80%5CDesktop%5Csite_next%5Cpages%5Cindex.jsx!./":
-/*!**********************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5C%D0%A2%D0%BE%D1%85%D1%82%D0%B0%D1%80%5CDesktop%5Csite_next%5Cpages%5Cindex.jsx ***!
-  \**********************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fabout&absolutePagePath=C%3A%5CUsers%5C%D0%A2%D0%BE%D1%85%D1%82%D0%B0%D1%80%5CDesktop%5Csite_next%5Cpages%5Cabout.jsx!./":
+/*!***************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fabout&absolutePagePath=C%3A%5CUsers%5C%D0%A2%D0%BE%D1%85%D1%82%D0%B0%D1%80%5CDesktop%5Csite_next%5Cpages%5Cabout.jsx ***!
+  \***************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/", function() {
-      var page = __webpack_require__(/*! ./pages/index.jsx */ "./pages/index.jsx")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/about", function() {
+      var page = __webpack_require__(/*! ./pages/about.jsx */ "./pages/about.jsx")
       if(true) {
-        module.hot.accept(/*! ./pages/index.jsx */ "./pages/index.jsx", function() {
-          if(!next.router.components["/"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/index.jsx */ "./pages/index.jsx")
-          next.router.update("/", updatedPage.default || updatedPage)
+        module.hot.accept(/*! ./pages/about.jsx */ "./pages/about.jsx", function() {
+          if(!next.router.components["/about"]) return
+          var updatedPage = __webpack_require__(/*! ./pages/about.jsx */ "./pages/about.jsx")
+          next.router.update("/about", updatedPage.default || updatedPage)
         })
       }
       return { page: page.default || page }
@@ -29724,9 +29575,9 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./pages/index.jsx":
+/***/ "./pages/about.jsx":
 /*!*************************!*\
-  !*** ./pages/index.jsx ***!
+  !*** ./pages/about.jsx ***!
   \*************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -29739,23 +29590,25 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_seo__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_seo__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 /* harmony import */ var _components_Header__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Header */ "./components/Header.jsx");
-/* harmony import */ var _components_Main__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Main */ "./components/Main.jsx");
-var _jsxFileName = "C:\\Users\\\u0422\u043E\u0445\u0442\u0430\u0440\\Desktop\\site_next\\pages\\index.jsx";
-
+var _jsxFileName = "C:\\Users\\\u0422\u043E\u0445\u0442\u0430\u0440\\Desktop\\site_next\\pages\\about.jsx";
 
 
 
 
 var Layout = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div.withConfig({
-  displayName: "pages__Layout",
-  componentId: "sc-6h8rmy-0"
+  displayName: "about__Layout",
+  componentId: "f1ufaj-0"
 })(["height:100vh;padding:3rem;"]);
+var Paragraph = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].p.withConfig({
+  displayName: "about__Paragraph",
+  componentId: "f1ufaj-1"
+})(["font-size:1.75rem;padding:3rem 12rem 3rem 0rem;"]);
 
 var Index = function Index() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Layout, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 17
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_seo__WEBPACK_IMPORTED_MODULE_1__["NextSeo"], {
@@ -29763,22 +29616,22 @@ var Index = function Index() {
     description: "Portfolio of Akhmetov Tokhtar. Junior web developer from Astana, Kazakhstan. React, Node, Next, C#, Python, Django",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 18
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Header__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 23
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Main__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Paragraph, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 24
     },
     __self: this
-  }));
+  }, "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore quisquam ex est molestiae quod deleniti quos, ipsum quaerat quia facere nulla nemo! Ipsum doloribus, ex accusamus magni beatae autem enim. Veniam, quaerat cum optio eligendi eaque repellendus natus non incidunt, deleniti, quasi quis tempora molestias sit corrupti? Voluptate nesciunt quam deserunt sit ipsum ullam numquam, natus voluptatibus itaque, autem velit? Ea praesentium ullam sed omnis numquam? Totam praesentium enim vero exercitationem sunt est nisi inventore cumque, debitis commodi! Reprehenderit omnis architecto blanditiis, nemo voluptatibus minus! Aspernatur illum harum voluptate id! Similique exercitationem obcaecati debitis recusandae praesentium dignissimos officia incidunt? Ullam eum incidunt dicta, nemo ipsam rerum sequi ad quia dolorum voluptatem excepturi cupiditate animi eaque quaerat beatae consectetur expedita at! Eligendi id harum vel ratione omnis corporis itaque ab commodi nulla odit atque odio, libero labore quaerat inventore obcaecati voluptatum architecto iusto. Unde asperiores illum cumque consectetur dolorum quod odio? Laboriosam, alias repellendus? Rem nulla officiis dolore est cum, expedita voluptates rerum consequuntur. Reprehenderit repellat maxime mollitia non laudantium, voluptatem expedita recusandae officiis vero consectetur sed, exercitationem molestiae iure sit? Quod perferendis omnis porro non, iste quos laudantium repellendus, enim quibusdam quis adipisci inventore illum blanditiis quae in. Quia odio omnis voluptatum optio delectus cumque enim dicta necessitatibus ipsum nihil? Architecto fugit, ea expedita ullam cupiditate, harum omnis repudiandae et beatae eaque accusantium quas dignissimos quibusdam accusamus a eligendi tenetur incidunt fuga debitis molestiae veritatis assumenda perferendis libero enim. Sunt! Beatae, perferendis facilis. Mollitia nemo pariatur ad, consequuntur magni debitis optio tenetur vero odit, illum ipsam! Perferendis distinctio similique facere eius sint, impedit autem maiores laborum in doloribus quo ut. Consequatur, nisi quo non deleniti animi vel rerum ut reiciendis explicabo obcaecati expedita hic. Quam doloribus magni explicabo tenetur repellendus, expedita quidem sint a iure minima ducimus excepturi? Animi, fuga?"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Index);
@@ -29817,14 +29670,14 @@ var devices = {
 
 /***/ }),
 
-/***/ 0:
-/*!**************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5C%D0%A2%D0%BE%D1%85%D1%82%D0%B0%D1%80%5CDesktop%5Csite_next%5Cpages%5Cindex.jsx ***!
-  \**************************************************************************************************************************************************************/
+/***/ 1:
+/*!*******************************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fabout&absolutePagePath=C%3A%5CUsers%5C%D0%A2%D0%BE%D1%85%D1%82%D0%B0%D1%80%5CDesktop%5Csite_next%5Cpages%5Cabout.jsx ***!
+  \*******************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5C%D0%A2%D0%BE%D1%85%D1%82%D0%B0%D1%80%5CDesktop%5Csite_next%5Cpages%5Cindex.jsx! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5C%D0%A2%D0%BE%D1%85%D1%82%D0%B0%D1%80%5CDesktop%5Csite_next%5Cpages%5Cindex.jsx!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fabout&absolutePagePath=C%3A%5CUsers%5C%D0%A2%D0%BE%D1%85%D1%82%D0%B0%D1%80%5CDesktop%5Csite_next%5Cpages%5Cabout.jsx! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fabout&absolutePagePath=C%3A%5CUsers%5C%D0%A2%D0%BE%D1%85%D1%82%D0%B0%D1%80%5CDesktop%5Csite_next%5Cpages%5Cabout.jsx!./");
 
 
 /***/ }),
@@ -29840,5 +29693,5 @@ module.exports = dll_129a35c7ec57967eb265;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js"]]]);
-//# sourceMappingURL=index.js.map
+},[[1,"static/runtime/webpack.js"]]]);
+//# sourceMappingURL=about.js.map

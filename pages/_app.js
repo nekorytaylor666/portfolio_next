@@ -5,6 +5,7 @@ import React from 'react';
 import App, { Container } from 'next/app';
 import Head from 'next/head';
 import { NextSeo } from 'next-seo';
+import { createGlobalStyle } from 'styled-components';
 
 const DEFAULT_SEO = {
   title: 'Portfolio Akhmetov Tokhtar',
@@ -21,34 +22,8 @@ const DEFAULT_SEO = {
   },
 };
 
-class MyApp extends App {
-  // static async getInitialProps({ Component, ctx }) {
-  //   let pageProps = {};
-
-  //   if (Component.getInitialProps) {
-  //     pageProps = await Component.getInitialProps(ctx);
-  //   }
-
-  //   return { pageProps };
-  // }
-
-  render() {
-    const { Component, pageProps } = this.props;
-
-    return (
-      <Container>
-        <Head>
-          <link
-            href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=block"
-            rel="stylesheet"
-            async
-          />
-          <script src="https://kit.fontawesome.com/810c0a2f4e.js" />
-        </Head>
-        <NextSeo config={DEFAULT_SEO} />
-        <Component {...pageProps} />
-        <style global jsx>{`
-          body {
+const GlobalStyle = createGlobalStyle`
+    body {
             font-family: 'Playfair Display', serif;
             background-color: black;
             color: white;
@@ -84,7 +59,35 @@ class MyApp extends App {
               font-size: 6px;
             }
           }
-        `}</style>
+`;
+
+class MyApp extends App {
+  // static async getInitialProps({ Component, ctx }) {
+  //   let pageProps = {};
+
+  //   if (Component.getInitialProps) {
+  //     pageProps = await Component.getInitialProps(ctx);
+  //   }
+
+  //   return { pageProps };
+  // }
+
+  render() {
+    const { Component, pageProps } = this.props;
+
+    return (
+      <Container>
+        <Head>
+          <link
+            href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=block"
+            rel="stylesheet"
+            defer
+          />
+          <script src="https://kit.fontawesome.com/810c0a2f4e.js" defer />
+        </Head>
+        <NextSeo config={DEFAULT_SEO} />
+        <Component {...pageProps} />
+        <GlobalStyle />
       </Container>
     );
   }
