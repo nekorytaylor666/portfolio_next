@@ -357,7 +357,7 @@ const Title = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.h3.withCo
 const NavigationLayout = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "Header__NavigationLayout",
   componentId: "by5f3k-2"
-})(["z-index:1;position:absolute;display:flex;flex-direction:column;background:#ef3340;height:0;overflow:hidden;width:0;top:0;left:0;"]);
+})(["z-index:1;position:fixed;display:flex;flex-direction:column;background:#ef3340;height:0;overflow:hidden;width:0;top:0;left:0;"]);
 const MenuTab = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.a.withConfig({
   displayName: "Header__MenuTab",
   componentId: "by5f3k-3"
@@ -390,6 +390,10 @@ const SectionLayout = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.d
   displayName: "Header__SectionLayout",
   componentId: "by5f3k-10"
 })(["display:grid;grid-template-rows:1fr 1fr;height:100%;padding:6rem 3rem 3rem 3rem;@media ", "{padding:6rem 3rem 12rem 3rem;}"], _tools_mediaQueries__WEBPACK_IMPORTED_MODULE_7__["default"].mobileL);
+const Fixed = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
+  displayName: "Header__Fixed",
+  componentId: "by5f3k-11"
+})(["width:90%;z-index:4;position:fixed;"]);
 
 const Header = () => {
   const navRef = Object(react__WEBPACK_IMPORTED_MODULE_0__["useRef"])();
@@ -429,19 +433,25 @@ const Header = () => {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Navbar, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 151
+      lineNumber: 157
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Fixed, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 158
     },
     __self: undefined
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(TitleLayout, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 152
+      lineNumber: 159
     },
     __self: undefined
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(LogoLayout, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 153
+      lineNumber: 160
     },
     __self: undefined
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Logo, {
@@ -449,7 +459,7 @@ const Header = () => {
     alt: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 154
+      lineNumber: 161
     },
     __self: undefined
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Anch__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -458,54 +468,54 @@ const Header = () => {
     underlineColor: displayNav ? 'black' : '#ef3340',
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 155
+      lineNumber: 162
     },
     __self: undefined
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Title, {
     color: displayNav ? 'black' : 'white',
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 160
+      lineNumber: 167
     },
     __self: undefined
   }, "Akhmetov Toktar"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Btn, {
     onClick: showNavigation,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 163
+      lineNumber: 170
     },
     __self: undefined
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Ham__WEBPACK_IMPORTED_MODULE_4__["default"], {
     color: displayNav ? 'black' : 'white',
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 164
+      lineNumber: 171
     },
     __self: undefined
-  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(NavigationLayout, {
+  })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(NavigationLayout, {
     ref: navRef,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 167
+      lineNumber: 175
     },
     __self: undefined
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SectionLayout, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 168
+      lineNumber: 176
     },
     __self: undefined
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(MenuLayout, {
     ref: menuRef,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 169
+      lineNumber: 177
     },
     __self: undefined
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 170
+      lineNumber: 178
     },
     __self: undefined
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
@@ -513,58 +523,58 @@ const Header = () => {
     title: "About me",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 171
+      lineNumber: 179
     },
     __self: undefined
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(MenuTab, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 172
+      lineNumber: 180
     },
     __self: undefined
   }, "About me"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 175
+      lineNumber: 183
     },
     __self: undefined
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(MenuTab, {
     href: "/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 176
+      lineNumber: 184
     },
     __self: undefined
   }, "lorem ipsum")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 178
+      lineNumber: 186
     },
     __self: undefined
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(MenuTab, {
     href: "/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 179
+      lineNumber: 187
     },
     __self: undefined
   }, "lorem ipsum")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 181
+      lineNumber: 189
     },
     __self: undefined
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(MenuTab, {
     href: "/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 182
+      lineNumber: 190
     },
     __self: undefined
   }, "lorem ipsum"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ContactsLayout, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 185
+      lineNumber: 193
     },
     __self: undefined
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Contacts__WEBPACK_IMPORTED_MODULE_6__["default"], {
@@ -574,7 +584,7 @@ const Header = () => {
     mobileWidth: "200px",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 186
+      lineNumber: 194
     },
     __self: undefined
   })))));
@@ -633,33 +643,36 @@ const CustomAnchLayout = styled_components__WEBPACK_IMPORTED_MODULE_1___default.
 const SectionLayout = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.section.withConfig({
   displayName: "Main__SectionLayout",
   componentId: "sc-1qli85e-6"
-})(["display:grid;grid-template-rows:1fr 1fr;height:100%;"]);
+})(["display:grid;grid-template-rows:1fr 1fr;height:100%;margin-bottom:3rem;"]);
+const TitleContainer = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
+  displayName: "Main__TitleContainer",
+  componentId: "sc-1qli85e-7"
+})(["margin-top:2rem;"]);
 
 function Main() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SectionLayout, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54
+      lineNumber: 59
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "title_container",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(TitleContainer, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55
+      lineNumber: 60
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Title, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56
+      lineNumber: 61
     },
     __self: this
   }, "Full stack"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SubTitleLayout, {
     className: "subtitle_container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57
+      lineNumber: 62
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Img, {
@@ -668,34 +681,34 @@ function Main() {
     height: "6rem",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58
+      lineNumber: 63
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "subtitle_text_container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59
+      lineNumber: 64
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SubTitle, {
     className: "subtitle_text",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 60
+      lineNumber: 65
     },
     __self: this
   }, "Web developer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SubTitle, {
     className: "subtitle_text",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 61
+      lineNumber: 66
     },
     __self: this
   }, "Creator")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ContactsLayout, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 65
+      lineNumber: 70
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Contacts__WEBPACK_IMPORTED_MODULE_3__["default"], {
@@ -705,13 +718,13 @@ function Main() {
     mobileWidth: "200px",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 66
+      lineNumber: 71
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(CustomAnchLayout, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 67
+      lineNumber: 72
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Anch__WEBPACK_IMPORTED_MODULE_2__["default"], {
@@ -722,7 +735,7 @@ function Main() {
     underlineColor: "#ef3340",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 68
+      lineNumber: 73
     },
     __self: this
   }, "Contact me"))));
@@ -1450,7 +1463,7 @@ const Index = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(L
     lineNumber: 20
   },
   __self: undefined
-}));
+}), "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates, magnam, amet quo veniam ducimus repudiandae ipsam doloremque aut perferendis iste ipsum provident non fugiat impedit! Facilis hic maiores porro quas. Temporibus totam, est repudiandae, tempora maiores, enim soluta corporis dignissimos eveniet ad laboriosam ut tenetur consectetur voluptates? Et perspiciatis eaque quis, numquam, consequuntur ea dolor culpa voluptas, repellat enim laboriosam. In, ratione quae itaque accusamus nisi rem quia sit! Exercitationem repudiandae placeat tenetur voluptas obcaecati quisquam fugiat iste necessitatibus modi quam maxime perferendis, explicabo temporibus odit! Architecto dolorum est voluptates? Saepe error officia quae, quas, eligendi voluptas nemo magni non natus maiores reprehenderit fuga. Molestias officia, beatae, sunt ea harum suscipit inventore a reprehenderit cum quisquam totam eaque aperiam eligendi! Amet fugit, adipisci repudiandae possimus eligendi neque et architecto ipsa, quisquam veritatis, porro aliquam minus iste quas similique tempore officiis. Recusandae deserunt suscipit neque rem, ex illo cupiditate! Fuga, deleniti. Similique ab, quod dolorem distinctio quisquam saepe odio consectetur fugit vero, laborum labore amet quae magnam repellat neque cumque omnis magni. Consequatur enim et, tempore officiis ipsam eum error numquam. Dignissimos amet repellat similique, aspernatur possimus ab nulla veniam id unde assumenda distinctio iure, provident iusto voluptatibus. Ducimus enim tempora aut. Similique animi quisquam suscipit totam est iste, at aut. Quo amet, dolorem et quibusdam dolor harum eum voluptas veritatis ab, deserunt saepe aperiam laudantium. Blanditiis deleniti incidunt, iure ipsam error nemo temporibus dolorum tenetur architecto similique cum, voluptatum sapiente? Quibusdam, voluptas delectus neque aliquam ipsam dolorem dicta vel adipisci quidem nostrum reprehenderit non! Similique numquam laborum sed ipsum unde quas provident omnis natus iusto, tenetur alias! Doloremque, exercitationem aut. Dolorum tempore officia sed ullam, molestias quia ipsum animi, voluptate pariatur officiis, delectus maxime doloremque magnam similique tempora iure quae nulla laborum. Laboriosam eius quod velit. Quia dignissimos quasi voluptate. Tenetur ipsa corrupti doloremque molestiae? A porro, hic recusandae magni placeat iusto eveniet delectus dolore expedita cupiditate vero sit modi dolorum corrupti blanditiis, dignissimos numquam officia temporibus nemo deleniti! Eos. Minima, sequi ipsam nihil tenetur, consequuntur nam officia ipsum nemo porro quos deleniti explicabo velit impedit, excepturi esse at dignissimos illum maxime! Nisi unde distinctio consectetur suscipit sit praesentium tempora. Consequatur consectetur dolore mollitia! Quam accusantium, inventore nihil laborum fugiat vitae expedita in asperiores dolore dolores eaque necessitatibus aperiam exercitationem nostrum mollitia repudiandae doloribus, error esse incidunt quos, reiciendis explicabo! Ex iste quam expedita maxime nemo inventore, molestiae ut veritatis rem, libero cupiditate earum doloribus voluptate. Ducimus explicabo ex et dolor culpa ratione dignissimos quas aspernatur! Ipsum quisquam est vero! Voluptate, doloribus! Veritatis modi pariatur dolorum ullam debitis, voluptatem fugiat doloremque obcaecati laborum, voluptate dolorem corporis labore soluta? Iure fugit omnis ad aliquid, incidunt itaque voluptatum illum exercitationem in amet! Nihil, eos quas quis officiis at nesciunt magnam pariatur eligendi impedit vel accusamus, quae nisi illo ducimus dolores expedita eum quod aliquam! Nam corporis aperiam praesentium facilis commodi nobis? Aspernatur. Est tenetur molestiae nam dignissimos praesentium iure consequatur nemo rerum, officiis eveniet hic illum eos ipsa cum veniam, excepturi possimus odit ab reiciendis voluptas atque recusandae voluptate dicta minima! Iste! Vitae rerum laudantium, animi, consequatur alias omnis totam accusamus ipsam mollitia illo aspernatur expedita soluta unde hic ullam odio natus reprehenderit nobis cum, quae exercitationem similique voluptate dicta doloremque? Dicta. Delectus voluptas sunt natus reiciendis temporibus. Suscipit necessitatibus praesentium optio explicabo aspernatur, vel voluptatum provident minima exercitationem nam omnis deserunt quidem molestiae corrupti? Repellendus iusto nulla tempora distinctio illo nobis! Ex ut nostrum nulla error vel tenetur sequi, quo numquam maiores, officia magni omnis ad. Magni ipsam modi vitae nobis repellendus doloremque suscipit ut distinctio, dicta id accusantium accusamus eaque! Amet atque culpa nulla officia cupiditate consequatur accusantium incidunt animi debitis quam est quis veniam adipisci eum eius doloribus facere maiores esse doloremque quia, obcaecati rem blanditiis! Perspiciatis, ad accusamus! Eius quaerat porro velit magnam, sapiente ab temporibus veniam cumque expedita nemo natus voluptates iure quas et atque harum neque. Omnis, soluta sit. At quis necessitatibus quas modi. Error, hic! Numquam laboriosam, deleniti molestiae debitis corrupti ad voluptatibus beatae illo amet eius veritatis quo fuga quas sapiente quaerat error animi, reprehenderit eaque soluta libero pariatur? Dignissimos reiciendis nobis quisquam itaque. Iste deleniti vitae eaque nostrum, adipisci beatae magni numquam illum optio perspiciatis dicta alias sequi! Animi, sunt mollitia consequuntur optio cumque porro repellendus veniam est amet a quidem suscipit neque. Quaerat dolorum ad inventore quae qui quo non aspernatur enim deserunt ipsa perferendis accusamus eos quasi ratione eaque, nesciunt laboriosam nemo. Harum enim incidunt aut nulla illum sunt quidem consequatur. Amet, veniam accusamus? Ea, a eveniet officia quibusdam modi ipsa, quo consequuntur eligendi nobis fugiat dignissimos iste sunt magni aut nisi fuga cumque. Aspernatur similique repudiandae ullam minima provident placeat! Necessitatibus, mollitia rem? Ratione perferendis obcaecati dolor illum a commodi aperiam quo dolorum minima nam at iure delectus, rerum magnam consectetur illo nisi enim reprehenderit? Sed alias reprehenderit ratione laudantium. Laborum enim cum suscipit iusto nostrum vel nam minus similique aliquam. Quasi maxime dolor eligendi reiciendis nihil eaque, repellat fuga sit amet illo, obcaecati laboriosam distinctio sapiente dolorem repudiandae dignissimos. Consequatur eveniet perspiciatis similique sed laborum tenetur consequuntur quas molestias dignissimos. Mollitia soluta eligendi aspernatur? Amet ab quos reprehenderit. Accusantium fugit eum beatae et inventore, excepturi repellat nesciunt facere dolorem. Ex aut, odit fuga libero dolore facere soluta sequi recusandae numquam blanditiis deleniti veniam ullam eius autem dignissimos inventore, ducimus corrupti quasi! Laboriosam eius tenetur quo, magnam atque ipsam omnis?");
 
 /* harmony default export */ __webpack_exports__["default"] = (Index);
 

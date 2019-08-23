@@ -357,7 +357,7 @@ const Title = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.h3.withCo
 const NavigationLayout = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "Header__NavigationLayout",
   componentId: "by5f3k-2"
-})(["z-index:1;position:absolute;display:flex;flex-direction:column;background:#ef3340;height:0;overflow:hidden;width:0;top:0;left:0;"]);
+})(["z-index:1;position:fixed;display:flex;flex-direction:column;background:#ef3340;height:0;overflow:hidden;width:0;top:0;left:0;"]);
 const MenuTab = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.a.withConfig({
   displayName: "Header__MenuTab",
   componentId: "by5f3k-3"
@@ -390,6 +390,10 @@ const SectionLayout = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.d
   displayName: "Header__SectionLayout",
   componentId: "by5f3k-10"
 })(["display:grid;grid-template-rows:1fr 1fr;height:100%;padding:6rem 3rem 3rem 3rem;@media ", "{padding:6rem 3rem 12rem 3rem;}"], _tools_mediaQueries__WEBPACK_IMPORTED_MODULE_7__["default"].mobileL);
+const Fixed = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
+  displayName: "Header__Fixed",
+  componentId: "by5f3k-11"
+})(["width:90%;z-index:4;position:fixed;"]);
 
 const Header = () => {
   const navRef = Object(react__WEBPACK_IMPORTED_MODULE_0__["useRef"])();
@@ -429,19 +433,25 @@ const Header = () => {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Navbar, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 151
+      lineNumber: 157
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Fixed, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 158
     },
     __self: undefined
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(TitleLayout, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 152
+      lineNumber: 159
     },
     __self: undefined
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(LogoLayout, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 153
+      lineNumber: 160
     },
     __self: undefined
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Logo, {
@@ -449,7 +459,7 @@ const Header = () => {
     alt: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 154
+      lineNumber: 161
     },
     __self: undefined
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Anch__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -458,54 +468,54 @@ const Header = () => {
     underlineColor: displayNav ? 'black' : '#ef3340',
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 155
+      lineNumber: 162
     },
     __self: undefined
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Title, {
     color: displayNav ? 'black' : 'white',
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 160
+      lineNumber: 167
     },
     __self: undefined
   }, "Akhmetov Toktar"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Btn, {
     onClick: showNavigation,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 163
+      lineNumber: 170
     },
     __self: undefined
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Ham__WEBPACK_IMPORTED_MODULE_4__["default"], {
     color: displayNav ? 'black' : 'white',
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 164
+      lineNumber: 171
     },
     __self: undefined
-  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(NavigationLayout, {
+  })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(NavigationLayout, {
     ref: navRef,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 167
+      lineNumber: 175
     },
     __self: undefined
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SectionLayout, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 168
+      lineNumber: 176
     },
     __self: undefined
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(MenuLayout, {
     ref: menuRef,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 169
+      lineNumber: 177
     },
     __self: undefined
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 170
+      lineNumber: 178
     },
     __self: undefined
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
@@ -513,58 +523,58 @@ const Header = () => {
     title: "About me",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 171
+      lineNumber: 179
     },
     __self: undefined
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(MenuTab, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 172
+      lineNumber: 180
     },
     __self: undefined
   }, "About me"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 175
+      lineNumber: 183
     },
     __self: undefined
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(MenuTab, {
     href: "/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 176
+      lineNumber: 184
     },
     __self: undefined
   }, "lorem ipsum")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 178
+      lineNumber: 186
     },
     __self: undefined
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(MenuTab, {
     href: "/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 179
+      lineNumber: 187
     },
     __self: undefined
   }, "lorem ipsum")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 181
+      lineNumber: 189
     },
     __self: undefined
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(MenuTab, {
     href: "/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 182
+      lineNumber: 190
     },
     __self: undefined
   }, "lorem ipsum"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ContactsLayout, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 185
+      lineNumber: 193
     },
     __self: undefined
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Contacts__WEBPACK_IMPORTED_MODULE_6__["default"], {
@@ -574,7 +584,7 @@ const Header = () => {
     mobileWidth: "200px",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 186
+      lineNumber: 194
     },
     __self: undefined
   })))));
@@ -1286,7 +1296,7 @@ const Index = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(L
   __self: undefined
 }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_seo__WEBPACK_IMPORTED_MODULE_1__["NextSeo"], {
   title: "Portfolio Akhmetov Tokhtar",
-  description: "Portfolio of Akhmetov Tokhtar. Junior web developer from Astana, Kazakhstan. React, Node, Next, C#, Python, Django",
+  description: "Portfolio of Akhmetov Tokhtar. Junior web developer from Astana,\r Kazakhstan. React, Node, Next, C#, Python, Django",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 18

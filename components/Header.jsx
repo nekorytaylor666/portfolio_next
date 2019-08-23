@@ -30,7 +30,7 @@ const Title = styled.h3`
 
 const NavigationLayout = styled.div`
   z-index: 1;
-  position: absolute;
+  position: fixed;
   display: flex;
   flex-direction: column;
   background: #ef3340;
@@ -111,6 +111,12 @@ const SectionLayout = styled.div`
   }
 `;
 
+const FixedContainer = styled.div`
+  width: 90%;
+  z-index: 4;
+  position: fixed;
+`;
+
 const Header = () => {
   const navRef = useRef();
   const menuRef = useRef();
@@ -149,21 +155,23 @@ const Header = () => {
 
   return (
     <Navbar>
-      <TitleLayout>
-        <LogoLayout>
-          <Logo src="/static/logo_ball.png" alt="" />
-          <Anch
-            href="/"
-            color={displayNav ? 'black' : 'white'}
-            underlineColor={displayNav ? 'black' : '#ef3340'}
-          >
-            <Title color={displayNav ? 'black' : 'white'}>Akhmetov Toktar</Title>
-          </Anch>
-        </LogoLayout>
-        <Btn onClick={showNavigation}>
-          <Ham color={displayNav ? 'black' : 'white'} />
-        </Btn>
-      </TitleLayout>
+      <FixedContainer>
+        <TitleLayout>
+          <LogoLayout>
+            <Logo src="/static/logo_ball.png" alt="" />
+            <Anch
+              href="/"
+              color={displayNav ? 'black' : 'white'}
+              underlineColor={displayNav ? 'black' : '#ef3340'}
+            >
+              <Title color={displayNav ? 'black' : 'white'}>Akhmetov Toktar</Title>
+            </Anch>
+          </LogoLayout>
+          <Btn onClick={showNavigation}>
+            <Ham color={displayNav ? 'black' : 'white'} />
+          </Btn>
+        </TitleLayout>
+      </FixedContainer>
       <NavigationLayout ref={navRef}>
         <SectionLayout>
           <MenuLayout ref={menuRef}>

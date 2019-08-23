@@ -47,12 +47,17 @@ const SectionLayout = styled.section`
   display: grid;
   grid-template-rows: 1fr 1fr;
   height: 100%;
+  margin-bottom: 3rem;
+`;
+
+const TitleContainer = styled.div`
+  margin-top: 2rem;
 `;
 
 function Main() {
   return (
     <SectionLayout>
-      <div className="title_container">
+      <TitleContainer>
         <Title>Full stack</Title>
         <SubTitleLayout className="subtitle_container">
           <Img src="/static/ampersand.png" alt="" height="6rem" />
@@ -61,7 +66,7 @@ function Main() {
             <SubTitle className="subtitle_text">Creator</SubTitle>
           </div>
         </SubTitleLayout>
-      </div>
+      </TitleContainer>
       <ContactsLayout>
         <Contacts color="white" size="4x" width="400px" mobileWidth="200px" />
         <CustomAnchLayout>
