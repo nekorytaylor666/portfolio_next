@@ -208,137 +208,138 @@ var DescContainer = styled_components__WEBPACK_IMPORTED_MODULE_3__["default"].di
 
 var Default = function Default() {
   var params = {
+    lazy: true,
     effect: 'cube',
     grabCursor: true
   };
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_id_swiper__WEBPACK_IMPORTED_MODULE_2___default.a, Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, params, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33
+      lineNumber: 34
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Container, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
+      lineNumber: 35
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Img, {
     src: "/static/gallery/newyork.png",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 36
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(DescContainer, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 37
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_TextTags__WEBPACK_IMPORTED_MODULE_4__["SubTitle"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 38
     },
     __self: this
   }, "Who am i?"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_TextTags__WEBPACK_IMPORTED_MODULE_4__["Paragraph"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38
+      lineNumber: 39
     },
     __self: this
   }, "I'm a junior developer from Kazakhstan, Astana. I really like to code and create stuff. My point is to become an engineer who not only write code, but also design architecture of app and business in web. Last year i fell into Javascript with react, next and node js. But i'm also experienced in python/django and .NET/C# backend developing."))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Container, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46
+      lineNumber: 47
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Img, {
     src: "/static/gallery/bridge.png",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47
+      lineNumber: 48
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(DescContainer, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48
+      lineNumber: 49
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_TextTags__WEBPACK_IMPORTED_MODULE_4__["SubTitle"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49
+      lineNumber: 50
     },
     __self: this
   }, "Who am i?"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_TextTags__WEBPACK_IMPORTED_MODULE_4__["Paragraph"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 51
     },
     __self: this
   }, "I'm a junior developer from Kazakhstan, Astana. I really like to code and create stuff. My point is to become an engineer who not only write code, but also design architecture of app and business in web. Last year i fell into Javascript with react, next and node js. But i'm also experienced in python/django and .NET/C# backend developing."))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Container, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58
+      lineNumber: 59
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Img, {
     src: "/static/gallery/siting.jpg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59
+      lineNumber: 60
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(DescContainer, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 60
+      lineNumber: 61
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_TextTags__WEBPACK_IMPORTED_MODULE_4__["SubTitle"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 61
+      lineNumber: 62
     },
     __self: this
   }, "Who am i?"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_TextTags__WEBPACK_IMPORTED_MODULE_4__["Paragraph"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62
+      lineNumber: 63
     },
     __self: this
   }, "I'm a junior developer from Kazakhstan, Astana. I really like to code and create stuff. My point is to become an engineer who not only write code, but also design architecture of app and business in web. Last year i fell into Javascript with react, next and node js. But i'm also experienced in python/django and .NET/C# backend developing."))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Container, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 70
+      lineNumber: 71
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Img, {
     src: "/static/gallery/timesquare.jpg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 71
+      lineNumber: 72
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(DescContainer, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 72
+      lineNumber: 73
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_TextTags__WEBPACK_IMPORTED_MODULE_4__["SubTitle"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 73
+      lineNumber: 74
     },
     __self: this
   }, "Who am i?"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_TextTags__WEBPACK_IMPORTED_MODULE_4__["Paragraph"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 74
+      lineNumber: 75
     },
     __self: this
   }, "I'm a junior developer from Kazakhstan, Astana. I really like to code and create stuff. My point is to become an engineer who not only write code, but also design architecture of app and business in web. Last year i fell into Javascript with react, next and node js. But i'm also experienced in python/django and .NET/C# backend developing."))));

@@ -26,6 +26,7 @@ const DescContainer = styled.div`
 
 const Default = () => {
   const params = {
+    lazy: true,
     effect: 'cube',
     grabCursor: true,
   };
