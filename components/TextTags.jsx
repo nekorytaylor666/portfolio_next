@@ -14,9 +14,6 @@ const SubTitle = styled.h2`
 const Paragraph = styled.p`
   font-size: 2rem;
   font-weight: inherit;
-  @media ${devices.laptop} {
-    font-size: 1.5rem;
-  }
 `;
 
 export { Title, SubTitle, Paragraph };

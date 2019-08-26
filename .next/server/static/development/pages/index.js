@@ -957,7 +957,7 @@ const SubTitle = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.h2.wit
 const Paragraph = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.p.withConfig({
   displayName: "TextTags__Paragraph",
   componentId: "sc-1s01ili-2"
-})(["font-size:2rem;font-weight:inherit;@media ", "{font-size:1.5rem;}"], _tools_mediaQueries__WEBPACK_IMPORTED_MODULE_1__["default"].laptop);
+})(["font-size:2rem;font-weight:inherit;"]);
 
 
 /***/ }),
