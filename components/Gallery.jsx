@@ -33,7 +33,7 @@ const Default = () => {
   return (
     <Swiper {...params}>
       <Container>
-        <Img src="/static/gallery/newyork.png" />
+        <Img src="/static/gallery/newyork.png" alt="gallery-1" />
         <DescContainer>
           <SubTitle>Who am i?</SubTitle>
           <Paragraph>
@@ -45,7 +45,7 @@ const Default = () => {
         </DescContainer>
       </Container>
       <Container>
-        <Img src="/static/gallery/bridge.png" />
+        <Img src="/static/gallery/bridge.png" alt="gallery-2" />
         <DescContainer>
           <SubTitle>Who am i?</SubTitle>
           <Paragraph>
@@ -57,7 +57,7 @@ const Default = () => {
         </DescContainer>
       </Container>
       <Container>
-        <Img src="/static/gallery/siting.jpg" />
+        <Img src="/static/gallery/siting.jpg" alt="gallery-3" />
         <DescContainer>
           <SubTitle>Who am i?</SubTitle>
           <Paragraph>
@@ -69,7 +69,7 @@ const Default = () => {
         </DescContainer>
       </Container>
       <Container>
-        <Img src="/static/gallery/timesquare.jpg" />
+        <Img src="/static/gallery/timesquare.jpg" alt="gallery-4" />
         <DescContainer>
           <SubTitle>Who am i?</SubTitle>
           <Paragraph>

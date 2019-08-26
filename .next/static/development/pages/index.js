@@ -226,6 +226,7 @@ var Default = function Default() {
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Img, {
     src: "/static/gallery/newyork.png",
+    alt: "gallery-1",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 36
@@ -257,6 +258,7 @@ var Default = function Default() {
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Img, {
     src: "/static/gallery/bridge.png",
+    alt: "gallery-2",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 48
@@ -288,6 +290,7 @@ var Default = function Default() {
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Img, {
     src: "/static/gallery/siting.jpg",
+    alt: "gallery-3",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 60
@@ -319,6 +322,7 @@ var Default = function Default() {
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Img, {
     src: "/static/gallery/timesquare.jpg",
+    alt: "gallery-4",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 72
