@@ -2,21 +2,17 @@ import React from 'react';
 import { NextSeo } from 'next-seo';
 import styled from 'styled-components';
 import Header from '../components/Header';
+import { Paragraph } from '../components/TextTags';
 
 const Layout = styled.div`
   height: 100vh;
   padding: 3rem;
 `;
 
-const Paragraph = styled.p`
-  font-size: 1.75rem;
-  padding: 3rem 12rem 3rem 0rem;
-`;
-
 const Index = () => (
   <Layout>
     <NextSeo
-      title="Portfolio Akhmetov Tokhtar"
+      title="About Akhmetov Tokhtar"
       description="Portfolio of Akhmetov Tokhtar. Junior web developer from Astana,
     Kazakhstan. React, Node, Next, C#, Python, Django"
     />

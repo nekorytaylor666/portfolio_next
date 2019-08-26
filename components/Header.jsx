@@ -29,7 +29,7 @@ const Title = styled.h3`
 `;
 
 const NavigationLayout = styled.div`
-  z-index: 1;
+  z-index: 3;
   position: fixed;
   display: flex;
   flex-direction: column;
@@ -176,7 +176,7 @@ const Header = () => {
         <SectionLayout>
           <MenuLayout ref={menuRef}>
             <li>
-              <Link href="/about" title="About me">
+              <Link href="/about">
                 <MenuTab>About me</MenuTab>
               </Link>
             </li>

@@ -256,6 +256,186 @@ const Contacts = props => {
 
 /***/ }),
 
+/***/ "./components/Gallery.jsx":
+/*!********************************!*\
+  !*** ./components/Gallery.jsx ***!
+  \********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/extends */ "./node_modules/@babel/runtime-corejs2/helpers/esm/extends.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_id_swiper__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-id-swiper */ "react-id-swiper");
+/* harmony import */ var react_id_swiper__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_id_swiper__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! styled-components */ "styled-components");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _TextTags__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./TextTags */ "./components/TextTags.jsx");
+/* harmony import */ var _tools_mediaQueries__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../tools/mediaQueries */ "./tools/mediaQueries.js");
+
+var _jsxFileName = "C:\\Users\\\u0422\u043E\u0445\u0442\u0430\u0440\\Desktop\\site_next\\components\\Gallery.jsx";
+
+
+
+
+
+const Img = styled_components__WEBPACK_IMPORTED_MODULE_3___default.a.img.withConfig({
+  displayName: "Gallery__Img",
+  componentId: "sc-1hhled6-0"
+})(["width:100%;object-fit:cover;"]);
+const Container = styled_components__WEBPACK_IMPORTED_MODULE_3___default.a.div.withConfig({
+  displayName: "Gallery__Container",
+  componentId: "sc-1hhled6-1"
+})(["display:grid;grid-template-columns:1fr 1fr;column-gap:3rem;@media ", "{grid-template-columns:1fr;}"], _tools_mediaQueries__WEBPACK_IMPORTED_MODULE_5__["default"].mobileL);
+const DescContainer = styled_components__WEBPACK_IMPORTED_MODULE_3___default.a.div.withConfig({
+  displayName: "Gallery__DescContainer",
+  componentId: "sc-1hhled6-2"
+})(["display:flex;justify-content:center;flex-direction:column;"]);
+
+const Default = () => {
+  const params = {
+    effect: 'cube',
+    grabCursor: true
+  };
+  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_id_swiper__WEBPACK_IMPORTED_MODULE_2___default.a, Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, params, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33
+    },
+    __self: undefined
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Container, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Img, {
+    src: "/static/gallery/newyork.png",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35
+    },
+    __self: undefined
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(DescContainer, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_TextTags__WEBPACK_IMPORTED_MODULE_4__["SubTitle"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37
+    },
+    __self: undefined
+  }, "Who am i?"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_TextTags__WEBPACK_IMPORTED_MODULE_4__["Paragraph"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38
+    },
+    __self: undefined
+  }, "I'm a junior developer from Kazakhstan, Astana. I really like to code and create stuff. My point is to become an engineer who not only write code, but also design architecture of app and business in web. Last year i fell into Javascript with react, next and node js. But i'm also experienced in python/django and .NET/C# backend developing."))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Container, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Img, {
+    src: "/static/gallery/bridge.png",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47
+    },
+    __self: undefined
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(DescContainer, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_TextTags__WEBPACK_IMPORTED_MODULE_4__["SubTitle"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49
+    },
+    __self: undefined
+  }, "Who am i?"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_TextTags__WEBPACK_IMPORTED_MODULE_4__["Paragraph"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50
+    },
+    __self: undefined
+  }, "I'm a junior developer from Kazakhstan, Astana. I really like to code and create stuff. My point is to become an engineer who not only write code, but also design architecture of app and business in web. Last year i fell into Javascript with react, next and node js. But i'm also experienced in python/django and .NET/C# backend developing."))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Container, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 58
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Img, {
+    src: "/static/gallery/siting.jpg",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 59
+    },
+    __self: undefined
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(DescContainer, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 60
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_TextTags__WEBPACK_IMPORTED_MODULE_4__["SubTitle"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 61
+    },
+    __self: undefined
+  }, "Who am i?"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_TextTags__WEBPACK_IMPORTED_MODULE_4__["Paragraph"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 62
+    },
+    __self: undefined
+  }, "I'm a junior developer from Kazakhstan, Astana. I really like to code and create stuff. My point is to become an engineer who not only write code, but also design architecture of app and business in web. Last year i fell into Javascript with react, next and node js. But i'm also experienced in python/django and .NET/C# backend developing."))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Container, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 70
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Img, {
+    src: "/static/gallery/timesquare.jpg",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 71
+    },
+    __self: undefined
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(DescContainer, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 72
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_TextTags__WEBPACK_IMPORTED_MODULE_4__["SubTitle"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 73
+    },
+    __self: undefined
+  }, "Who am i?"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_TextTags__WEBPACK_IMPORTED_MODULE_4__["Paragraph"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 74
+    },
+    __self: undefined
+  }, "I'm a junior developer from Kazakhstan, Astana. I really like to code and create stuff. My point is to become an engineer who not only write code, but also design architecture of app and business in web. Last year i fell into Javascript with react, next and node js. But i'm also experienced in python/django and .NET/C# backend developing."))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Default);
+
+/***/ }),
+
 /***/ "./components/Ham.jsx":
 /*!****************************!*\
   !*** ./components/Ham.jsx ***!
@@ -357,7 +537,7 @@ const Title = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.h3.withCo
 const NavigationLayout = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "Header__NavigationLayout",
   componentId: "by5f3k-2"
-})(["z-index:1;position:fixed;display:flex;flex-direction:column;background:#ef3340;height:0;overflow:hidden;width:0;top:0;left:0;"]);
+})(["z-index:3;position:fixed;display:flex;flex-direction:column;background:#ef3340;height:0;overflow:hidden;width:0;top:0;left:0;"]);
 const MenuTab = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.a.withConfig({
   displayName: "Header__MenuTab",
   componentId: "by5f3k-3"
@@ -390,8 +570,8 @@ const SectionLayout = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.d
   displayName: "Header__SectionLayout",
   componentId: "by5f3k-10"
 })(["display:grid;grid-template-rows:1fr 1fr;height:100%;padding:6rem 3rem 3rem 3rem;@media ", "{padding:6rem 3rem 12rem 3rem;}"], _tools_mediaQueries__WEBPACK_IMPORTED_MODULE_7__["default"].mobileL);
-const Fixed = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
-  displayName: "Header__Fixed",
+const FixedContainer = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
+  displayName: "Header__FixedContainer",
   componentId: "by5f3k-11"
 })(["width:90%;z-index:4;position:fixed;"]);
 
@@ -436,7 +616,7 @@ const Header = () => {
       lineNumber: 157
     },
     __self: undefined
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Fixed, {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(FixedContainer, {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 158
@@ -520,7 +700,6 @@ const Header = () => {
     __self: undefined
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
     href: "/about",
-    title: "About me",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 179
@@ -619,7 +798,7 @@ var _jsxFileName = "C:\\Users\\\u0422\u043E\u0445\u0442\u0430\u0440\\Desktop\\si
 const Title = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.h1.withConfig({
   displayName: "Main__Title",
   componentId: "sc-1qli85e-0"
-})(["font-size:9rem;font-weight:100;"]);
+})(["font-size:9rem;font-weight:inherit;"]);
 const SubTitle = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.h2.withConfig({
   displayName: "Main__SubTitle",
   componentId: "sc-1qli85e-1"
@@ -745,6 +924,39 @@ function Main() {
 
 /***/ }),
 
+/***/ "./components/TextTags.jsx":
+/*!*********************************!*\
+  !*** ./components/TextTags.jsx ***!
+  \*********************************/
+/*! exports provided: Title, SubTitle, Paragraph */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Title", function() { return Title; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SubTitle", function() { return SubTitle; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Paragraph", function() { return Paragraph; });
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ "styled-components");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _tools_mediaQueries__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../tools/mediaQueries */ "./tools/mediaQueries.js");
+
+
+const Title = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.h1.withConfig({
+  displayName: "TextTags__Title",
+  componentId: "sc-1s01ili-0"
+})(["font-size:9rem;font-weight:inherit;"]);
+const SubTitle = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.h2.withConfig({
+  displayName: "TextTags__SubTitle",
+  componentId: "sc-1s01ili-1"
+})(["font-size:3rem;font-weight:bold;"]);
+const Paragraph = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.p.withConfig({
+  displayName: "TextTags__Paragraph",
+  componentId: "sc-1s01ili-2"
+})(["font-size:2rem;font-weight:inherit;@media ", "{font-size:1.5rem;}"], _tools_mediaQueries__WEBPACK_IMPORTED_MODULE_1__["default"].laptop);
+
+
+/***/ }),
+
 /***/ "./node_modules/@babel/runtime-corejs2/core-js/map.js":
 /*!************************************************************!*\
   !*** ./node_modules/@babel/runtime-corejs2/core-js/map.js ***!
@@ -786,6 +998,39 @@ module.exports = __webpack_require__(/*! core-js/library/fn/object/define-proper
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(/*! core-js/library/fn/object/get-own-property-descriptor */ "core-js/library/fn/object/get-own-property-descriptor");
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/extends.js":
+/*!********************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/extends.js ***!
+  \********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _extends; });
+/* harmony import */ var _core_js_object_assign__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/object/assign */ "./node_modules/@babel/runtime-corejs2/core-js/object/assign.js");
+/* harmony import */ var _core_js_object_assign__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_object_assign__WEBPACK_IMPORTED_MODULE_0__);
+
+function _extends() {
+  _extends = _core_js_object_assign__WEBPACK_IMPORTED_MODULE_0___default.a || function (target) {
+    for (var i = 1; i < arguments.length; i++) {
+      var source = arguments[i];
+
+      for (var key in source) {
+        if (Object.prototype.hasOwnProperty.call(source, key)) {
+          target[key] = source[key];
+        }
+      }
+    }
+
+    return target;
+  };
+
+  return _extends.apply(this, arguments);
+}
 
 /***/ }),
 
@@ -1424,9 +1669,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_seo__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_seo__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "styled-components");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _components_Header__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Header */ "./components/Header.jsx");
-/* harmony import */ var _components_Main__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Main */ "./components/Main.jsx");
+/* harmony import */ var _components_Gallery__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Gallery */ "./components/Gallery.jsx");
+/* harmony import */ var _components_Header__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Header */ "./components/Header.jsx");
+/* harmony import */ var _components_Main__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/Main */ "./components/Main.jsx");
 var _jsxFileName = "C:\\Users\\\u0422\u043E\u0445\u0442\u0430\u0440\\Desktop\\site_next\\pages\\index.jsx";
+
 
 
 
@@ -1440,7 +1687,7 @@ const Layout = styled_components__WEBPACK_IMPORTED_MODULE_2___default.a.div.with
 const Index = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Layout, {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 13
+    lineNumber: 14
   },
   __self: undefined
 }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_seo__WEBPACK_IMPORTED_MODULE_1__["NextSeo"], {
@@ -1448,22 +1695,28 @@ const Index = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(L
   description: "Portfolio of Akhmetov Tokhtar. Junior web developer from Astana, Kazakhstan. React, Node, Next, C#, Python, Django",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 14
+    lineNumber: 15
   },
   __self: undefined
-}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Header__WEBPACK_IMPORTED_MODULE_3__["default"], {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 19
-  },
-  __self: undefined
-}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Main__WEBPACK_IMPORTED_MODULE_4__["default"], {
+}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Header__WEBPACK_IMPORTED_MODULE_4__["default"], {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 20
   },
   __self: undefined
-}), "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates, magnam, amet quo veniam ducimus repudiandae ipsam doloremque aut perferendis iste ipsum provident non fugiat impedit! Facilis hic maiores porro quas. Temporibus totam, est repudiandae, tempora maiores, enim soluta corporis dignissimos eveniet ad laboriosam ut tenetur consectetur voluptates? Et perspiciatis eaque quis, numquam, consequuntur ea dolor culpa voluptas, repellat enim laboriosam. In, ratione quae itaque accusamus nisi rem quia sit! Exercitationem repudiandae placeat tenetur voluptas obcaecati quisquam fugiat iste necessitatibus modi quam maxime perferendis, explicabo temporibus odit! Architecto dolorum est voluptates? Saepe error officia quae, quas, eligendi voluptas nemo magni non natus maiores reprehenderit fuga. Molestias officia, beatae, sunt ea harum suscipit inventore a reprehenderit cum quisquam totam eaque aperiam eligendi! Amet fugit, adipisci repudiandae possimus eligendi neque et architecto ipsa, quisquam veritatis, porro aliquam minus iste quas similique tempore officiis. Recusandae deserunt suscipit neque rem, ex illo cupiditate! Fuga, deleniti. Similique ab, quod dolorem distinctio quisquam saepe odio consectetur fugit vero, laborum labore amet quae magnam repellat neque cumque omnis magni. Consequatur enim et, tempore officiis ipsam eum error numquam. Dignissimos amet repellat similique, aspernatur possimus ab nulla veniam id unde assumenda distinctio iure, provident iusto voluptatibus. Ducimus enim tempora aut. Similique animi quisquam suscipit totam est iste, at aut. Quo amet, dolorem et quibusdam dolor harum eum voluptas veritatis ab, deserunt saepe aperiam laudantium. Blanditiis deleniti incidunt, iure ipsam error nemo temporibus dolorum tenetur architecto similique cum, voluptatum sapiente? Quibusdam, voluptas delectus neque aliquam ipsam dolorem dicta vel adipisci quidem nostrum reprehenderit non! Similique numquam laborum sed ipsum unde quas provident omnis natus iusto, tenetur alias! Doloremque, exercitationem aut. Dolorum tempore officia sed ullam, molestias quia ipsum animi, voluptate pariatur officiis, delectus maxime doloremque magnam similique tempora iure quae nulla laborum. Laboriosam eius quod velit. Quia dignissimos quasi voluptate. Tenetur ipsa corrupti doloremque molestiae? A porro, hic recusandae magni placeat iusto eveniet delectus dolore expedita cupiditate vero sit modi dolorum corrupti blanditiis, dignissimos numquam officia temporibus nemo deleniti! Eos. Minima, sequi ipsam nihil tenetur, consequuntur nam officia ipsum nemo porro quos deleniti explicabo velit impedit, excepturi esse at dignissimos illum maxime! Nisi unde distinctio consectetur suscipit sit praesentium tempora. Consequatur consectetur dolore mollitia! Quam accusantium, inventore nihil laborum fugiat vitae expedita in asperiores dolore dolores eaque necessitatibus aperiam exercitationem nostrum mollitia repudiandae doloribus, error esse incidunt quos, reiciendis explicabo! Ex iste quam expedita maxime nemo inventore, molestiae ut veritatis rem, libero cupiditate earum doloribus voluptate. Ducimus explicabo ex et dolor culpa ratione dignissimos quas aspernatur! Ipsum quisquam est vero! Voluptate, doloribus! Veritatis modi pariatur dolorum ullam debitis, voluptatem fugiat doloremque obcaecati laborum, voluptate dolorem corporis labore soluta? Iure fugit omnis ad aliquid, incidunt itaque voluptatum illum exercitationem in amet! Nihil, eos quas quis officiis at nesciunt magnam pariatur eligendi impedit vel accusamus, quae nisi illo ducimus dolores expedita eum quod aliquam! Nam corporis aperiam praesentium facilis commodi nobis? Aspernatur. Est tenetur molestiae nam dignissimos praesentium iure consequatur nemo rerum, officiis eveniet hic illum eos ipsa cum veniam, excepturi possimus odit ab reiciendis voluptas atque recusandae voluptate dicta minima! Iste! Vitae rerum laudantium, animi, consequatur alias omnis totam accusamus ipsam mollitia illo aspernatur expedita soluta unde hic ullam odio natus reprehenderit nobis cum, quae exercitationem similique voluptate dicta doloremque? Dicta. Delectus voluptas sunt natus reiciendis temporibus. Suscipit necessitatibus praesentium optio explicabo aspernatur, vel voluptatum provident minima exercitationem nam omnis deserunt quidem molestiae corrupti? Repellendus iusto nulla tempora distinctio illo nobis! Ex ut nostrum nulla error vel tenetur sequi, quo numquam maiores, officia magni omnis ad. Magni ipsam modi vitae nobis repellendus doloremque suscipit ut distinctio, dicta id accusantium accusamus eaque! Amet atque culpa nulla officia cupiditate consequatur accusantium incidunt animi debitis quam est quis veniam adipisci eum eius doloribus facere maiores esse doloremque quia, obcaecati rem blanditiis! Perspiciatis, ad accusamus! Eius quaerat porro velit magnam, sapiente ab temporibus veniam cumque expedita nemo natus voluptates iure quas et atque harum neque. Omnis, soluta sit. At quis necessitatibus quas modi. Error, hic! Numquam laboriosam, deleniti molestiae debitis corrupti ad voluptatibus beatae illo amet eius veritatis quo fuga quas sapiente quaerat error animi, reprehenderit eaque soluta libero pariatur? Dignissimos reiciendis nobis quisquam itaque. Iste deleniti vitae eaque nostrum, adipisci beatae magni numquam illum optio perspiciatis dicta alias sequi! Animi, sunt mollitia consequuntur optio cumque porro repellendus veniam est amet a quidem suscipit neque. Quaerat dolorum ad inventore quae qui quo non aspernatur enim deserunt ipsa perferendis accusamus eos quasi ratione eaque, nesciunt laboriosam nemo. Harum enim incidunt aut nulla illum sunt quidem consequatur. Amet, veniam accusamus? Ea, a eveniet officia quibusdam modi ipsa, quo consequuntur eligendi nobis fugiat dignissimos iste sunt magni aut nisi fuga cumque. Aspernatur similique repudiandae ullam minima provident placeat! Necessitatibus, mollitia rem? Ratione perferendis obcaecati dolor illum a commodi aperiam quo dolorum minima nam at iure delectus, rerum magnam consectetur illo nisi enim reprehenderit? Sed alias reprehenderit ratione laudantium. Laborum enim cum suscipit iusto nostrum vel nam minus similique aliquam. Quasi maxime dolor eligendi reiciendis nihil eaque, repellat fuga sit amet illo, obcaecati laboriosam distinctio sapiente dolorem repudiandae dignissimos. Consequatur eveniet perspiciatis similique sed laborum tenetur consequuntur quas molestias dignissimos. Mollitia soluta eligendi aspernatur? Amet ab quos reprehenderit. Accusantium fugit eum beatae et inventore, excepturi repellat nesciunt facere dolorem. Ex aut, odit fuga libero dolore facere soluta sequi recusandae numquam blanditiis deleniti veniam ullam eius autem dignissimos inventore, ducimus corrupti quasi! Laboriosam eius tenetur quo, magnam atque ipsam omnis?");
+}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Main__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 21
+  },
+  __self: undefined
+}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Gallery__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 22
+  },
+  __self: undefined
+}));
 
 /* harmony default export */ __webpack_exports__["default"] = (Index);
 
@@ -1675,6 +1928,17 @@ module.exports = require("prop-types-exact");
 /***/ (function(module, exports) {
 
 module.exports = require("react");
+
+/***/ }),
+
+/***/ "react-id-swiper":
+/*!**********************************!*\
+  !*** external "react-id-swiper" ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-id-swiper");
 
 /***/ }),
 

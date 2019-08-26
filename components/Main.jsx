@@ -6,7 +6,7 @@ import devices from '../tools/mediaQueries';
 
 const Title = styled.h1`
   font-size: 9rem;
-  font-weight: 100;
+  font-weight: inherit;
 `;
 
 const SubTitle = styled.h2`
